@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/*===========================
+            GENERAL
+===========================*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*===========================
+            HEADER
+===========================*/
+
+header{
+    height: 100vh;
+    border-bottom: 2px solid #ccc;
+    max-width: 1440px;
+}
+
+nav>ul{
+    list-style: none;
+    padding: 3vh 6vw;
+    margin-bottom: 25vh;
+}
+
+nav>ul>li{
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 3vw;
+}
+
+nav>ul>li>a{
+    color:#659d89;
+    text-decoration: none;
+}
+
+header>h1{
+    color:#659d89;
+    margin-left: 6vw;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+header>p{
+    margin-left: 6vw;
+    margin-right: 40vw;
+    font-weight: 400;
+    font-size: 54px;
+}
+
+header>ul{
+    text-align: right;
+    margin-left: 55vw;
+    list-style: none;
+}
+
+header>ul>li{
+    transform: scale(0.6);
+}
+
+header>h6{
+    font-size: 25px;
+    margin-top: 8vh;
+    margin-left: 6vw;
+}
+
+/*===========================
+    What's your Struggle?
+===========================*/
+
+main>section>article:nth-of-type(1){
+    max-width: 1440px;
+    height: 92vh;
+    border-bottom: 2px solid #ccc;
+}
+
+article:nth-of-type(1)>h1{
+    font-size: 48px;
+    margin: 8vh 0vw 4vh 6vw;
+    font-weight: 400;
+}
+
+article:nth-of-type(1)>p{
+    font-size: 20px;
+    margin-left: 6vw;
+    margin-bottom: 4vh;
+}
+
+main>section>article:nth-of-type(1)>ul{
+    text-align: center;
+}
+
+main>section>article:nth-of-type(1)>ul>li{
+    margin: 3vw;
+    display: inline-block;
+    
+}
+
+main>section>article:nth-of-type(1)>ul>li>img:hover{
+    box-shadow: 0px 0px 1px 2px #333;
+}
+
+/*===========================
+    Features Ressources
+===========================*/
+
+main>section>article:nth-of-type(2)>h1{
+    font-size: 30px;
+    margin: 8vh 8vw;
+    font-weight: 400;
+}
+
+/*======= CONTENT ODD ========*/
+
+main>section>article:nth-of-type(2)>div:nth-of-type(odd){
+    margin-top: 10vh;
+    margin-right: 30vw;
+    text-align: center;
+}
+
+main>section>article:nth-of-type(2)>div:nth-of-type(odd)>h5{
+    color: #666;
+    padding: 1vh;
+}
+
+main>section>article:nth-of-type(2)>div:nth-of-type(odd)>a>img{
+    width: 50vw;
+}
+
+main>section>article:nth-of-type(2)>div:nth-of-type(odd)>h3{
+    color: #333;
+    padding: 1vh;
+}
+
+main>section>article:nth-of-type(2)>div:nth-of-type(odd)>h6{
+    color: #666;
+    padding: 1vh;
+}
+
+/*======= CONTENT EVEN ========*/
+
+main>section>article:nth-of-type(2)>div:nth-of-type(even){
+    margin-top: 10vh;
+    margin-left: 30vw;
+    text-align: center
+    ;
+}
+
+main>section>article:nth-of-type(2)>div:nth-of-type(even)>h5{
+    color: #666;
+    padding: 1vh;
+}
+
+main>section>article:nth-of-type(2)>div:nth-of-type(even)>a>img{
+    width: 50vw;
+}
+
+main>section>article:nth-of-type(2)>div:nth-of-type(even)>h3{
+    color: #333;
+    padding: 1vh;
+}
+
+main>section>article:nth-of-type(2)>div:nth-of-type(even)>h6{
+    color: #666;
+    padding: 1vh;
+}
+
+main{
+    border-bottom:2px solid #ccc;
+    padding-bottom: 20vh;
+}
+
+/*===========================
+            FOOTER
+===========================*/
+
+footer{
+    text-align: center;
+}
+
+footer>h5{
+    padding: 15vh;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+footer>h5>a{
+    text-decoration: none;
+    color: #000;
+}
